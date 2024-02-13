@@ -1,0 +1,6 @@
+<h1>Tablero de Mensajes - Página de Inicio</h1>
+<ul>
+    {% for pub in publicacion_list %}
+        <li>{{ pub.texto }}</li>
+    {% endfor %}
+</ul>
